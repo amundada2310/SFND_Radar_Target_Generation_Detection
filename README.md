@@ -221,5 +221,5 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
 ## FP.5 Performance evaluation 1
 This section I looked at various TTC lidar based results. All the measurements were in the range of 8 -16s which was more or less similar to the TTC computation by using camera. This is because I tried to mitigate the impact of outliers by using the median approach. Task-005 document has more details regarding this observation.
 
-##FP.6 Performance evaluation 2
+## FP.6 Performance evaluation 2
 This section I ran various detector/descriptor combinations and compared the ttc computation results for lidar and camera. The document Task-006 provides the details and results of various combinations. Just to summarize- with FAST detector got the best results for both ttc lidar and ttc camera. However, with detector type like HARRIS and ORB didn’t get reliable value for ttc camera computations, also values for ttc lidar looked not that reasonable. 
