@@ -1,5 +1,6 @@
 # SFND_Radar_Target_Generation_Detection
-Walking through the edits in code
+
+<img src="media/project layout.png" width="700" height="400" />
 
 ## FP.1 Match 3D objects
 matchBoundingBoxes function was implemented in SFND_3D_Object_Tracking-master> camFusion_Student.cpp lines 300 – 352, you can find the code below. I have used the concept of outer-looping all the matched key-points as suggested. Then finding the corresponding train and query point from the current and previous frames. Then looped over the bounding boxes from current and previous frame to verify in which Bounding box the match point belongs. Then counted the corresponding box pair in order to find out the best match with maximum number of key-point correspondence.  
