@@ -60,7 +60,7 @@ Mix_fft = Mix_fft(1:(Nr/2)+1);`
 
 Result
 
-
+<img src="media/Figure 1.bmp" width="700" height="400" />
 
 
 ### 6. 2D FFT - Doppler FFT - Determine the 2D-FFT of the mixed signal calculated along range-velocity grids were used to generate range-velocity-map.
@@ -78,7 +78,7 @@ RDM = 10*log10(RDM) ;% Linear to logarithmic`
 
 
 Result:
-
+<img src="media/Figure 2.bmp" width="700" height="400" />
 
 
 ### 7. 2D - CFAR - The above Range Doppler signal contains a lot of noise which is called as clutters, Those clutters could create false alarms. Thus, it is very important to suppress the same. Thus we implement a 2D CFAR on the above signal.
@@ -139,3 +139,4 @@ end`
 
 Result:
 
+<img src="media/Figure 3.bmp" width="700" height="400" />
